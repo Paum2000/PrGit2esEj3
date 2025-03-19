@@ -10,4 +10,5 @@ public @Data class Departamento {
     void anadir(Empleado v){
         empleados[0]=v;
     }
+    Departamento(String nombre) {}
 }
